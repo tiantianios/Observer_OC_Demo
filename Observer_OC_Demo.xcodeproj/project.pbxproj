@@ -13,6 +13,10 @@
 		391AEA521F80D89700FDB639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391AEA511F80D89700FDB639 /* Assets.xcassets */; };
 		391AEA551F80D89700FDB639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391AEA531F80D89700FDB639 /* LaunchScreen.storyboard */; };
 		391AEA581F80D89700FDB639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 391AEA571F80D89700FDB639 /* main.m */; };
+		391AEA611F80DA0100FDB639 /* Observable.m in Sources */ = {isa = PBXBuildFile; fileRef = 391AEA601F80DA0100FDB639 /* Observable.m */; };
+		391AEA651F80ED8900FDB639 /* specificObserver1.m in Sources */ = {isa = PBXBuildFile; fileRef = 391AEA641F80ED8900FDB639 /* specificObserver1.m */; };
+		391AEA681F80EE4A00FDB639 /* specificObserver2.m in Sources */ = {isa = PBXBuildFile; fileRef = 391AEA671F80EE4A00FDB639 /* specificObserver2.m */; };
+		391AEA6B1F81176A00FDB639 /* specificObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = 391AEA6A1F81176A00FDB639 /* specificObservable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,15 @@
 		391AEA541F80D89700FDB639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		391AEA561F80D89700FDB639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		391AEA571F80D89700FDB639 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		391AEA5F1F80DA0100FDB639 /* Observable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observable.h; sourceTree = "<group>"; };
+		391AEA601F80DA0100FDB639 /* Observable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Observable.m; sourceTree = "<group>"; };
+		391AEA621F80DAAC00FDB639 /* Observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		391AEA631F80ED8900FDB639 /* specificObserver1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = specificObserver1.h; sourceTree = "<group>"; };
+		391AEA641F80ED8900FDB639 /* specificObserver1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = specificObserver1.m; sourceTree = "<group>"; };
+		391AEA661F80EE4A00FDB639 /* specificObserver2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = specificObserver2.h; sourceTree = "<group>"; };
+		391AEA671F80EE4A00FDB639 /* specificObserver2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = specificObserver2.m; sourceTree = "<group>"; };
+		391AEA691F81176A00FDB639 /* specificObservable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = specificObservable.h; sourceTree = "<group>"; };
+		391AEA6A1F81176A00FDB639 /* specificObservable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = specificObservable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 		391AEA471F80D89700FDB639 /* Observer_OC_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				391AEA5E1F80D9D200FDB639 /* Observer */,
 				391AEA481F80D89700FDB639 /* AppDelegate.h */,
 				391AEA491F80D89700FDB639 /* AppDelegate.m */,
 				391AEA4B1F80D89700FDB639 /* ViewController.h */,
@@ -69,6 +83,22 @@
 				391AEA571F80D89700FDB639 /* main.m */,
 			);
 			path = Observer_OC_Demo;
+			sourceTree = "<group>";
+		};
+		391AEA5E1F80D9D200FDB639 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				391AEA5F1F80DA0100FDB639 /* Observable.h */,
+				391AEA601F80DA0100FDB639 /* Observable.m */,
+				391AEA691F81176A00FDB639 /* specificObservable.h */,
+				391AEA6A1F81176A00FDB639 /* specificObservable.m */,
+				391AEA621F80DAAC00FDB639 /* Observer.h */,
+				391AEA631F80ED8900FDB639 /* specificObserver1.h */,
+				391AEA641F80ED8900FDB639 /* specificObserver1.m */,
+				391AEA661F80EE4A00FDB639 /* specificObserver2.h */,
+				391AEA671F80EE4A00FDB639 /* specificObserver2.m */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391AEA651F80ED8900FDB639 /* specificObserver1.m in Sources */,
+				391AEA6B1F81176A00FDB639 /* specificObservable.m in Sources */,
+				391AEA611F80DA0100FDB639 /* Observable.m in Sources */,
+				391AEA681F80EE4A00FDB639 /* specificObserver2.m in Sources */,
 				391AEA4D1F80D89700FDB639 /* ViewController.m in Sources */,
 				391AEA581F80D89700FDB639 /* main.m in Sources */,
 				391AEA4A1F80D89700FDB639 /* AppDelegate.m in Sources */,
@@ -280,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Observer_OC_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "txx.com.www.Observer-OC-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,6 +328,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Observer_OC_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "txx.com.www.Observer-OC-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
