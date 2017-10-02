@@ -11,7 +11,7 @@
 
 //观察者->抽象
 @protocol Observer <NSObject>
-
+//
 -(void)update:(Observable*)o msg:(NSObject*)msg;
 
 @end
